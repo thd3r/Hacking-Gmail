@@ -39,8 +39,8 @@ class SendMail:
                 sys.exit()
             except:
                 print("\nFailed sent!")
-                break
                 server.quit()
+                break
 
 if len(sys.argv) < 3:
     print("\n\033[93mSpam Email\033[0m\n")
