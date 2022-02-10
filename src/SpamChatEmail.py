@@ -32,7 +32,6 @@ def spam(email, password, to_mail, subject, message, num):
         try:
             threadLock.acquire()
             server.send_message(msg)
-            print("\033[92mSuccessfully sent!\033[0m")
             threadLock.release()
 
         except KeyboardInterrupt:
