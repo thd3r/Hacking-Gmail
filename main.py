@@ -28,9 +28,9 @@ except ImportError:
 
 def startMessage():
     start = getpass(prompt=Fore.YELLOW + "Code To Unlock The Tool: " + Fore.WHITE)
-    code = "999666"
+    xxx = "999666"
     try:
-        if start != code:
+        if start != xxx:
             sleep(0.5)
             print(Fore.RED + '[X] Wrong Code' + Fore.WHITE)
             print(Fore.BLUE + '''
