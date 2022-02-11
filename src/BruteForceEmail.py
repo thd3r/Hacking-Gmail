@@ -20,6 +20,7 @@ def bruteForce(email, wordlist):
                         threadLock.acquire()
                         print(f"The password is: \033[93m{password.strip()}\033[0m")
                         threadLock.release()
+                        break
                     except smtplib.SMTPAuthenticationError:
                         threadLock.acquire()
                         pass
