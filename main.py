@@ -69,20 +69,20 @@ if __name__ == '__main__':
 """)
         input1 = input("(\033[96muse\033[0m)/> ")
         if input1 == '1':
-            email = input("exploit(\033[96mBruteForceEmail/TargetEmail\033[0m)/> ")
-            wordlist = input("exploit(\033[96mBruteForceEmail/Wordlist\033[0m)/> ")
+            email = input("exploit(\033[91mBruteForceEmail/TargetEmail\033[0m)/> ")
+            wordlist = input("exploit(\033[91mBruteForceEmail/Wordlist\033[0m)/> ")
             from src.BruteForceEmail import bruteForce
             print("\nProceeding with wordlist: {}".format(wordlist))
             bruteForce(email, wordlist)
             print("Session completed.")
 
         elif input1 == '2':
-            mail = input("exploit(\033[96mSpamChatEmail/YourEmail\033[0m)/> ")
-            password = getpass(prompt="exploit(\033[96mSpamChatEmail/Password\033[0m)/> ")
-            target = input("exploit(\033[96mSpamChatEmail/TargetEmail\033[0m)/> ")
-            subject = input("exploit(\033[96mSpamChatEmail/Subject\033[0m)/> ")
-            msg = input("exploit(\033[96mSpamChatEmail/Message\033[0m)/> ")
-            jum = input("exploit(\033[96mSpamChatEmail/HowMuch\033[0m)/> ")
+            mail = input("exploit(\033[91mSpamChatEmail/YourEmail\033[0m)/> ")
+            password = getpass(prompt="exploit(\033[91mSpamChatEmail/Password\033[0m)/> ")
+            target = input("exploit(\033[91mSpamChatEmail/TargetEmail\033[0m)/> ")
+            subject = input("exploit(\033[91mSpamChatEmail/Subject\033[0m)/> ")
+            msg = input("exploit(\033[91mSpamChatEmail/Message\033[0m)/> ")
+            jum = input("exploit(\033[91mSpamChatEmail/HowMuch\033[0m)/> ")
             from src.SpamChatEmail import spam
             print("\nSend by message: {}".format(msg))
             spam(mail, password, target, subject, msg, jum)
