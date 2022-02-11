@@ -10,20 +10,23 @@
     <img src="https://img.shields.io/badge/python-v3-blue">
   </a>
 
-## Summary:
+## Summary
 
 This script requires code to run the program you will get the code when you have run the script.
 Using Telegram bot to get code
 
-## Feature:
+## Feature
 
 * Hack Gmail account
 * Send spam messages to the target email
 
 ## Operating Systems Tested
-Kali Linux 2021
+* Kali Linux 2021
 
-## Installation On Kali Linux
+## Tested on android
+* Termux
+
+## Installation
 
 ```
 git clone https://github.com/BytexThunder/Hacking-Gmail 
