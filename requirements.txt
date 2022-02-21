@@ -1,2 +1,2 @@
-colorama
-pyTelegramBotAPI
+colorama==0.4.4
+pyTelegramBotAPI==4.2.2
