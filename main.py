@@ -82,7 +82,7 @@ if __name__ == '__main__':
             target = input("exploit(\033[91mSpamChatEmail/TargetEmail\033[0m)/> ")
             subject = input("exploit(\033[91mSpamChatEmail/Subject\033[0m)/> ")
             msg = input("exploit(\033[91mSpamChatEmail/Message\033[0m)/> ")
-            jum = input("exploit(\033[91mSpamChatEmail/HowMuch\033[0m)/> ")
+            jum = input("exploit(\033[91mSpamChatEmail/Count\033[0m)/> ")
             from src.SpamChatEmail import spam
             print("\nSend by message: {}".format(msg))
             spam(mail, password, target, subject, msg, jum)
