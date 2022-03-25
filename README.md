@@ -29,7 +29,7 @@ Using Telegram bot to get code
 ## Installation
 
 ```
-git clone https://github.com/hujikii/Hacking-Gmail 
+git clone https://github.com/0xthd3r/Hacking-Gmail 
 cd Hacking-Gmail
 python3 -m pip install -r requirements.txt
 python3 main.py 
