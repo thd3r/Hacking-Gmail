@@ -9,6 +9,11 @@
   <a href="http://python.org">
     <img src="https://img.shields.io/badge/python-v3-blue">
   </a>
+ 
+## Closed
+
+The following script will allow us to send an email via Gmail's SMTP server. However, Google will not allow us to login via smtplib because this login technique has been marked as "less secure technique"
+
 
 ## Summary
 
