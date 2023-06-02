@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/hujikii/Hacking-Gmail">Hacking Gmail</a>
+  <a href="https://github.com/thd3r/Hacking-Gmail">Hacking Gmail</a>
   
 </h1>
 
@@ -34,7 +34,7 @@ Using Telegram bot to get code
 ## Installation
 
 ```
-git clone https://github.com/0xthd3r/Hacking-Gmail 
+git clone https://github.com/thd3r/Hacking-Gmail 
 cd Hacking-Gmail
 python3 -m pip install -r requirements.txt
 python3 main.py 
